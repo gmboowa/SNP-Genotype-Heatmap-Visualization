@@ -1,0 +1,10 @@
+##fileformat=VCFv4.2
+##source=SimulatedVCF
+##INFO=<ID=.,Number=.,Type=String,Description="Simulated Data">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Sample1	Sample2	Sample3	Sample4	Sample5	Sample6	Sample7	Sample8	Sample9	Sample10
+chr1	100	rs100	A	G	.	PASS	.	GT	0/0	0/1	0/0	0/1	1/1	0/1	0/0	0/1	0/1	1/1
+chr1	110	rs110	A	G	.	PASS	.	GT	0/1	0/0	0/1	0/1	0/1	0/1	0/0	./.	1/1	0/0
+chr1	120	rs120	A	G	.	PASS	.	GT	0/0	0/1	0/1	0/1	./.	0/0	1/1	./.	0/0	1/1
+chr1	130	rs130	A	G	.	PASS	.	GT	./.	./.	0/1	0/0	0/0	0/1	0/1	0/1	0/1	1/1
+chr1	140	rs140	A	G	.	PASS	.	GT	0/1	0/0	0/0	0/0	./.	0/1	0/0	0/0	0/0	./.

@@ -32,17 +32,19 @@ pip install numpy matplotlib
 Clone or download this repository.
 
    Run the Python version of the script:
+
+```bash
    
-  `python3 plot_snp_heatmap.py`
-  
-   or 
+   python3 plot_snp_heatmap.py
+
+ ```
    
    Run the R version of the script:
 
+```bash
 
-   `Rscript categorical_heatmap.R`
+   Rscript categorical_heatmap.R
 
-   
    ```
 
 5. The script will produce a file named `categorical_heatmap.png` in the project root. This image shows the categorical heatmap with an embedded legend.

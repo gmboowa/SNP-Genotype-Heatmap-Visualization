@@ -22,21 +22,30 @@ This repository contains a Python script to visualize SNP genotypes from a multi
 Install dependencies via pip:
 
 ```bash
+
 pip install numpy matplotlib
+
 ```
 
 ## Usage
 
-1. Clone or download this repository.
-2. Ensure that `plot_snp_heatmap.py` and this `README.md` are in the same directory.
-3. Run the script:
+Clone or download this repository.
 
-   ```bash
+   Run the Python version of the script:
+   
+  `python3 plot_snp_heatmap.py`
+  
+   or 
+   
+   Run the R version of the script:
 
-   python3 plot_snp_heatmap.py
+
+   `Rscript categorical_heatmap.R`
+
+   
    ```
 
-4. The script will produce a file named `categorical_heatmap.png` in the project root. This image shows the categorical heatmap with an embedded legend.
+5. The script will produce a file named `categorical_heatmap.png` in the project root. This image shows the categorical heatmap with an embedded legend.
 
 ## Example
 

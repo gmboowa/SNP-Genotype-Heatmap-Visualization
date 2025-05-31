@@ -1,5 +1,5 @@
 # SNP-genotype-heatmap-visualization
-An easy-to-use Python tool for visualizing multi-sample VCF SNP genotypes as a categorical heatmap, where homozygous reference, heterozygous, homozygous alternate, and missing data are color-coded. Ideal for genetic studies, comparative analyses, and QC of variant data. Supports bioinformatics pipelines widely.
+An easy-to-use Python or R script for visualizing multi-sample VCF SNP genotypes as a categorical heatmap, where homozygous reference, heterozygous, homozygous alternate, and missing data are color-coded. Ideal for genetic studies, comparative analyses, and QC of variant data. Supports bioinformatics pipelines widely.
 
 This repository contains a Python script to visualize SNP genotypes from a multi-sample VCF as a categorical heatmap. Each genotype is represented as:
 - `0` = homozygous reference (blue)
